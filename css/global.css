@@ -1,0 +1,54 @@
+body {
+  max-width: 100%;
+}
+
+.bg-menu {
+  background-color: var(--color-3);
+}
+
+.bg-menu ul, a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  background: linear-gradient(187deg, #0f172a 35%, #423788 100%, #6246a8, #5474d4);
+}
+
+.descricao {
+  height: 1324px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 95px;
+  position: absolute;
+  border-radius: 6px;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all .6s;
+}
+
+#front{
+  background-color: var(--color-4);
+  transform: rotateY(180deg);
+  font: 500 1.25rem/1 "Roboto", sans-serif;
+}
+
+#back{
+  background-color: pink;
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+
