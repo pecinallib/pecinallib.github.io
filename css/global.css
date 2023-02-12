@@ -5,7 +5,7 @@ body {
 
 .main{
   display: block;
-  background: linear-gradient(187deg, #0f172a 35%, #423788 100%, #6246a8, #5474d4);
+  background: linear-gradient(187deg, #0f172a 35%, #0e83b9 100%, #6495ED, #5474d4);
 }
 
 .bg-menu .conteiner-nav {
@@ -53,6 +53,8 @@ body {
   height: 1324px;
 }
 
+/* CARTAS */
+
 .card {
   display: flex;
   justify-content: center;
@@ -68,21 +70,100 @@ body {
   justify-content: center;
   transform-style: preserve-3d;
   transition: all .6s;
+  margin-right: -50%;
 }
 
-#front{
+#front {
   background-color: var(--color-4);
   transform: rotateY(180deg);
   font: 500 1.25rem/1 "Roboto", sans-serif;
 }
 
-#back{
-  background-color: pink;
+#back {
   backface-visibility: hidden;
+  background-color: #0f172a;
+  border: 1px solid #0f172a;
 }
 
 .flip {
   transform: rotateY(180deg);
+}
+
+
+.card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 95px;
+  position: absolute;
+  border-radius: 6px;
+}
+
+#card-2 {
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all .6s;
+  margin-right: -35%;
+}
+
+#front-2 {
+  background-color: var(--color-4);
+  transform: rotateY(180deg);
+  font: 500 1.25rem/1 "Roboto", sans-serif;
+}
+
+#back-2 {
+  backface-visibility: hidden;
+  background-color: #0f172a;
+  border: 1px solid #0f172a;
+}
+
+.flip-2 {
+  transform: rotateY(180deg);
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 95px;
+  position: absolute;
+  border-radius: 6px;
+}
+
+#card-3 {
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all .6s;
+  margin-right: -20%;
+}
+
+#front-3 {
+  background-color: var(--color-4);
+  transform: rotateY(180deg);
+  font: 500 1.25rem/1 "Roboto", sans-serif;
+}
+
+#back-3 {
+  background-color: #0f172a;
+  border: 1px solid #0f172a;
+  backface-visibility: hidden;
+}
+
+.flip-3 {
+  transform: rotateY(180deg);
+}
+
+.img-css {
+  height: 95px;
+}
+
+.img-js {
+  height: 99px;
 }
 
 
