@@ -69,6 +69,22 @@ body {
   margin-left: 8%;
 }
 
+.detalhe-descricao::after {
+  content: '|';
+  margin-left: 2px;
+  opacity: 1;
+  animation: piscar .7s infinite;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 
 /* CARTAS */
 
