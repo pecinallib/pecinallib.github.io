@@ -7,26 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MBP</title>
   <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <main class="main">
-    <header class="bg-menu">
+    <header class="bg-menu menu-js">
       <div class="conteiner-nav">
         <div class="logo">
-          <a href="#" class="color-1 font-1"><span class="color-4">
+          <a href="#home" class="color-1 font-1"><span class="color-4">
               < </span> pecinalli <span class="color-4"> /> </span></a>
         </div>
         <nav class="nav">
           <ul class="nav-lista font-1">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
       </div>
       </nav>
     </header>
-    <div class="descricao">
+    <div class="descricao" id="home">
       <div class="conteiner-desc">
         <div class="sobre">
           <h3 class="color-4">Olá, me chamo</h3>
@@ -74,7 +75,7 @@
       </svg>
     </div>
 
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobre">
       <div class="conteiner-sobre">
         <div class="img-perfil">
           <img src="./img/perfil.png" alt="">
@@ -88,6 +89,7 @@
     </section>
   </main>
   <script src="/script.js"></script>
+  <script src="./js/scroll-suave.js"></script>
 </body>
 
 </html>
