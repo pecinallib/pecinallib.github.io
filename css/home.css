@@ -1,0 +1,44 @@
+.conteiner-desc{
+  /* display: block; */
+  background: linear-gradient(187deg, #0f172a 40%, #0e83b9 100%, #6495ED, #5474d4);
+  min-height: 100vh;
+  position: relative;
+  justify-content: center;
+}
+
+.sobre {
+  display: flex;
+  padding-top: 10%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 8%;
+}
+
+.sobre h3 {
+  line-height: 50px;
+}
+
+.sobre h1 {
+  line-height: 60px;
+}
+
+.sobre p {
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.detalhe-descricao::after {
+  content: '/>';
+  margin-left: 2px;
+  opacity: 1;
+  animation: piscar .7s infinite;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

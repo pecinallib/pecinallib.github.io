@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 100vw;
+}
+
+.bg-menu .conteiner-nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.bg-menu {
+  /* position: fixed; */
+  align-items: center;
+  z-index: 100;
+  background-color: var(--color-3);
+}
+
+.bg-menu .nav .nav-lista {
+  display: inline-flex;
+}
+
+
+.logo a {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-lista a {
+ padding: 8px;
+ color: var(--color-1);
+ margin: 5px;
+ margin-right: 50px;
+}
+
+.nav-lista a:hover {
+ border-bottom: 3px solid #6246a8;
+ transition: all 0.1s ease-in-out;
+}

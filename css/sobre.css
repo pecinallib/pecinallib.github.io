@@ -1,0 +1,37 @@
+.sobre-mim {
+  min-height: 100vh;
+  /* display: block; */
+  background: linear-gradient(187deg, #0f172a 100%, #0e83b9 40%, #6495ED, #5474d4);
+  /* position: relative; */
+  margin-top: -5px;
+}
+
+.conteiner-sobre {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-perfil {
+  margin-top: 10%;
+  margin-left: 5%;
+  border-left: 10px solid #3291DB;
+  border-bottom: 10px solid #3291DB;
+}
+
+.img-perfil img {
+  border-radius: 10%;
+}
+
+.texto-sobre {
+  border-right: 10px solid #3291DB;
+  border-top: 10px solid #3291DB;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 50%;
+}
+
+.texto-sobre p {
+  line-height: 25px;
+  margin: 10px 0;
+}
