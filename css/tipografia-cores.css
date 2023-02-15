@@ -14,12 +14,16 @@
 .color-4 {
   color: var(--color-4);
 }
+.color-5 {
+  color: var(--color-5);
+}
 
 :root {
   --color-1: #e1e1e6;
   --color-2: #3291DB;
   --color-3: #253449f1;
   --color-4: #4ea1d1;
+  --color-5: #aabdc9;
 }
 
 /* TIPOGRAFIA */
@@ -34,4 +38,8 @@ font: 400 1rem/1 "Roboto", sans-serif;
 
 .font-3 {
   font: 600 3.4rem/1 "Roboto", sans-serif;
+}
+
+.font-4 {
+  font: 600 2rem/1 "Roboto", sans-serif;
 }

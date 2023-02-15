@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <main class="main">
+  <main class="main" id="home">
     <header class="bg-menu menu-js">
       <div class="conteiner-nav">
         <div class="logo">
@@ -27,8 +27,16 @@
         </nav>
       </div>
     </header>
-    <div class="conteiner-desc" id="home">
-      <div class="sobre">
+    <div class="links">
+      <ul class="img-links">
+        <li><a href="https://github.com/pecinallib"><img src="./img/github.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/pecinalli.matheus/"><img src="./img/icons8-instagram-60.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/matheus-pecinalli-7222bb246/"><img src="./img/icons8-linkedin-circled-60.png" alt=""></a></li>
+        <li><a href="https://wa.me/5522997331603"><img src="./img/icons8-whatsapp-50.png" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="conteiner-desc">
+      <div class="sobre" data-load="top">
         <h3 class="color-4">Olá, me chamo</h3>
         <h1 class="color-1 font-3">
           <span class="color-4">
@@ -36,8 +44,7 @@
         </h1>
         <p class="color-1 font-1">Eu sou um desenvolvedor front-end iniciante, e muito entusiasmado para aprender. <br> Espero que gostem do meu trabalho. 😁</p>
       </div>
-
-      <div class="conteiner-card">
+      <div class="conteiner-card" data-load="top">
         <div class="flip" id="card">
           <div class="card color-1" id="front">
             SKILLS
@@ -72,22 +79,49 @@
         </path>
       </svg>
     </div>
-
     <section class="sobre-mim" id="sobre">
       <div class="conteiner-sobre">
-        <div class="img-perfil">
+        <div class="img-perfil" data-load="left">
           <img src="./img/perfil.png" alt="">
         </div>
-        <div class="texto-sobre">
-          <p class="color-4 font-1">Falando sobre mim</p>
-          <h1 class="color-2 font-3">About <span class="font-2">😃</span></h1>
-          <p class="color-1 font-2">Meu nome é Matheus Bastos Pecinalli, e sou um programador iniciante. Sempre tive muito contato com computador, então sinto mais facilidade e aproximação com tecnologia, pelo fato de ter esse contato desde infância.<br> Atualmente, já tenho um conhecimento bom em HTML, CSS e JS, continuo estudando [HTML, CSS, JavaScript] e estou no inicio do [React, TS] pela Origamid, foruns e blogs e procurando oportunidades para aplicar meus conhecimentos em projetos reais.<br> Gosto de trabalhar em equipe e sempre procuro ouvir opiniões e sugestões dos colegas para melhorar meu trabalho.<br>Estou ansioso para encontrar oportunidades para colaborar com equipes talentosas e criar soluções inovadoras para os desafios da tecnologia</p>
+        <div class="texto-sobre" data-load="right">
+          <p class="color-5 font-1" data-load="right">Falando sobre mim</p>
+          <h1 class="color-2 font-3" data-load="right">About <span class="font-2">😃</span></h1>
+          <p class="color-1 font-2" data-load="right">Meu nome é Matheus Bastos Pecinalli, e sou um programador iniciante. Sempre tive muito contato com computador, então sinto mais facilidade e aproximação com tecnologia, pelo fato de ter esse contato desde infância.<br> Atualmente, já tenho um conhecimento bom em HTML, CSS e JS, continuo estudando [HTML, CSS, JavaScript] e estou no inicio do [React, TS] pela Origamid, foruns e blogs e procurando oportunidades para aplicar meus conhecimentos em projetos reais.<br> Gosto de trabalhar em equipe e sempre procuro ouvir opiniões e sugestões dos colegas para melhorar meu trabalho.<br>Estou ansioso para encontrar oportunidades para colaborar com equipes talentosas e criar soluções inovadoras para os desafios da tecnologia</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+      <div class="conteiner-projetos">
+        <h1 class="font-4 color-5">Pojetos que fiz:</h1>
+      </div>
+      <div>
+        <img src="./img/Animais-fant.png" alt="">
+        <div class="descricao-projetos">
+          <h1 class="color-1 font-2">Animais Fantástico</h1>
+          <p class="color-2 font-1 texto-projetos">Animais fantástico foi um projeto realizado pelo curso de JavaScript da Origamid</p>
+        </div>
+      </div>
+      <div>
+        <img src="./img/pula-mario.png" alt="">
+        <div class="descricao-projetos">
+          <h1 class="color-1 font-2">Pula Mario</h1>
+          <p class="font-1 color-2 texto-projetos">Pula Mario é um site simples de um jogo de pular com o Mario, basta apertar uma tecla qualquer para pular o tubo. Foi um projeto que vi no YT</p>
+        </div>
+      </div>
+      <div>
+        <img src="./img/bikcraft.png" alt="">
+        <div class="descricao-projetos">
+          <h1 class="color-1 font-2">BikCraft</h1>
+          <p class="font-1 color-2 texto-projetos">BikCraft foi um dos meus primeiros projetos, feito pelo curso de HTML e CSS na Origamid.</p>
         </div>
       </div>
     </section>
   </main>
   <script src="/script.js"></script>
   <script src="./js/scroll-suave.js"></script>
+  <script src="./js/data-load.js"></script>
 </body>
 
 </html>
