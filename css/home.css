@@ -31,7 +31,7 @@
   content: '/>';
   margin-left: 2px;
   opacity: 1;
-  animation: piscar .7s infinite;
+  animation: piscar .5s infinite;
 }
 
 @keyframes piscar {
