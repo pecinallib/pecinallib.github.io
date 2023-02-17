@@ -1,3 +1,5 @@
+export default function initDataLoad() {}
+
 const debounce = function (func, wait, immediate) {
   let timeout;
   return function (...args) {

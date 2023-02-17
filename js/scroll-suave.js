@@ -1,3 +1,5 @@
+export default function initScroll() {}
+
 const navInterno = document.querySelectorAll(".menu-js a[href^='#']");
 
 function scrollToSection(event) {

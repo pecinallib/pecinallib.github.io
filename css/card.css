@@ -79,7 +79,7 @@
 #back-2 {
   backface-visibility: hidden;
   background-color: #0f172a;
-  border: 1px solid #0f172a;
+  border: 1px solid #0f172a !important;
 }
 
 .flip-2 {
