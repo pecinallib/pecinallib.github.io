@@ -1,17 +1,14 @@
-.conteiner-modal {
+.container-modal {
   height: 100vh;
   width: 100vw;
-  background: rgb(0, 0, 0, .5);
+  background: rgb(0, 0, 0, .6);
   position: fixed;
   top: 0;
   z-index: 2000;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.conteiner-modal.ativo {
-  display: flex;
+  visibility: hidden;
 }
 
 .modal {
@@ -20,6 +17,14 @@
 
 .modal img {
   border-radius: 6px;
+}
+
+.modal img:hover {
+  height: 100%;
+}
+
+.modal-ativo {
+  visibility: visible;
 }
 
 @keyframes modal {
@@ -33,16 +38,15 @@
   }
 }
 
-.ativo .modal {
+.modal-ativo .modal {
   animation: modal .3s forwards;
 }
 
-.fechar {
+#fechar {
   position:absolute;
   top: 20px;
   right: 45px;
-  font-weight: bold;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 12px;
   background-color: transparent;
   border: none;
