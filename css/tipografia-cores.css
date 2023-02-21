@@ -43,3 +43,49 @@ font: 400 1rem/1 "Roboto", sans-serif;
 .font-4 {
   font: 600 2rem/1 "Roboto", sans-serif;
 }
+
+@media (max-width: 1370px) {
+  .font-1 {
+    font: 400 .75rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-2 {
+      font: 500 1rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-3 {
+      font: 600 3rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-4 {
+      font: 600 1.5rem/1 "Roboto", sans-serif;
+    }
+}
+
+@media (max-width: 920px) {
+  .font-1 {
+    font: 400 .6rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-2 {
+      font: 500 .75rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-3 {
+      font: 600 2.25rem/1 "Roboto", sans-serif;
+    }
+    
+    .font-4 {
+      font: 600 1rem/1 "Roboto", sans-serif;
+    }
+}
+
+@media (max-width: 600px) {
+  .font-3 {
+    font: 600 1.7rem/1 "Roboto", sans-serif;
+  }
+  
+  .font-4 {
+    font: 600 .75rem/1 "Roboto", sans-serif;
+  }
+}

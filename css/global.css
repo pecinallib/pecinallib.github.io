@@ -1,0 +1,23 @@
+/* Data-Load */
+
+[data-load] {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+[data-load="left"] {
+  transform: translate3d(-50px, 0px, 0px);
+}
+
+[data-load="right"] {
+  transform: translate3d(0px, 0px, 50px);
+}
+
+[data-load="top"] {
+  transform: translate3d(0px, -50px, 0px);
+}
+
+[data-load].animation {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}

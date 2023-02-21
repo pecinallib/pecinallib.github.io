@@ -18,8 +18,11 @@
           <a href="#home" class="color-1 font-1"><span class="color-4">
               < </span> pecinalli <span class="color-4"> /> </span></a>
         </div>
-        <nav class="nav">
-          <ul class="nav-lista font-1">
+        <nav class="nav" id="nav">
+          <button id="btn-mobile">Menu
+            <span id="hamburguer"></span>
+          </button>
+          <ul class="nav-lista font-1" id="menu-mobile">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
@@ -48,28 +51,28 @@
       <div class="container-card" data-load="top">
         <div class="flip" id="card">
           <div class="card color-1" id="front">
-            SKILLS
+            <span class="font-1">SKILLS</span>
           </div>
           <div class="card" id="back">
-            <img src="./img/HTML5.png" alt="">
+            <img src="./img/HTML5.svg" alt="">
           </div>
         </div>
 
         <div class="flip-2" id="card-2">
           <div class="card-2 color-1" id="front-2">
-            SKILLS
+            <span class="font-1">SKILLS</span>
           </div>
           <div class="card-2" id="back-2">
-            <img src="./img/CSS.png" class="img-css">
+            <img src="./img/CSS.svg" class="img-css">
           </div>
         </div>
 
         <div class="flip-3" id="card-3">
           <div class="card-3 color-1" id="front-3">
-            SKILLS
+            <span class="font-1">SKILLS</span>
           </div>
           <div class="card-3" id="back-3">
-            <img src="./img/JS.png" class="img-js">
+            <img src="./img/JS.png" class="img-js" style="width: 82px; height: 82px;">
           </div>
         </div>
       </div>
@@ -87,12 +90,11 @@
         </div>
         <div class="texto-sobre" data-load="right">
           <p class="color-5 font-1" data-load="right">Falando sobre mim</p>
-          <h1 class="color-2 font-3" data-load="right">About <span class="font-2">😃</span></h1>
+          <h1 class="color-2 font-3" data-load="right">Sobre <span class="font-2">😃</span></h1>
           <p class="color-1 font-2" data-load="right">Meu nome é Matheus Bastos Pecinalli, e sou um programador iniciante. Sempre tive muito contato com computador, então sinto mais facilidade e aproximação com tecnologia, pelo fato de ter esse contato desde infância.<br> Atualmente, já tenho um conhecimento bom em HTML, CSS e JS, continuo estudando [HTML, CSS, JavaScript] e estou no inicio do [React, TS] pela Origamid, foruns e blogs e procurando oportunidades para aplicar meus conhecimentos em projetos reais.<br> Gosto de trabalhar em equipe e sempre procuro ouvir opiniões e sugestões dos colegas para melhorar meu trabalho.<br>Estou ansioso para encontrar oportunidades para colaborar com equipes talentosas e criar soluções inovadoras para os desafios da tecnologia</p>
         </div>
       </div>
     </section>
-
     <section class="projetos" id="projetos">
       <div class="container-projetos">
         <h1 class="font-4 color-5" data-load="left">Projetos que fiz:</h1>
@@ -146,6 +148,12 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <form action=""></form>
       </div>
     </section>
 

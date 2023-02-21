@@ -5,10 +5,9 @@
   position: fixed;
   top: 0;
   z-index: 2000;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
 }
 
 .modal {
@@ -19,12 +18,8 @@
   border-radius: 6px;
 }
 
-.modal img:hover {
-  height: 100%;
-}
-
 .modal-ativo {
-  visibility: visible;
+  display: flex;
 }
 
 @keyframes modal {

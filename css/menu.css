@@ -1,11 +1,3 @@
-body {
-  box-sizing: border-box;
-}
-
-.main {
-  max-width: 100vw;
-}
-
 .bg-menu .container-nav {
   display:flex;
   align-items: center;
@@ -14,19 +6,23 @@ body {
 }
 
 .bg-menu {
-  /* position: fixed; */
+  position: fixed;
   align-items: center;
   z-index: 100;
-  background-color: var(--color-3);
+  background-color: rgba(37, 52, 73, 0.6);
+  min-width: 100vw;
 }
 
 .bg-menu .nav .nav-lista {
   display: inline-flex;
 }
 
+#btn-mobile {
+  display: none;
+}
 
 .logo a {
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   margin-left: 50px;
   padding-top: 5px;
@@ -43,4 +39,79 @@ body {
 .nav-lista a:hover {
  border-bottom: 3px solid #6246a8;
  transition: all 0.1s ease-in-out;
+}
+
+@media (max-width: 650px) {
+  .bg-menu .container-nav {
+    height: 50px;
+  }
+  #menu-mobile {
+  display: none;
+  line-height: 30px;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  right: 0px;
+  padding: 10px;
+  background-color: rgba(37, 52, 73, 0.6);
+  flex-direction: column;
+  height: 0;
+  transition: .5s;
+  z-index: 5000;
+  visibility: hidden;
+  overflow-y: hidden;
+ }
+
+ #nav.mobile-ativo #menu-mobile {
+  display: flex;
+  align-items: end;
+  height: calc(100vh - 50px);
+  visibility: visible;
+  overflow-y: auto;
+
+ }
+ #menu-mobile a {
+  font-size: .8rem;
+  padding: .2rem 0;
+  margin: 0 1.5rem;
+  border-bottom:2px solid var(--color-4);
+ }
+
+ #btn-mobile {
+  display: flex;
+  padding: .4rem .7rem;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: var(--color-2);
+  cursor: pointer;
+  gap: .5rem;
+ }
+
+ #hamburguer {
+  display: block;
+  border-top: 2px solid;
+  width: 20px;
+  color: var(--color-5);
+ }
+ #hamburguer::after, #hamburguer::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
+ }
+ #nav.mobile-ativo #hamburguer {
+  border-top-color: transparent;
+ }
+ #nav.mobile-ativo #hamburguer::before {
+  transform: rotate(135deg);
+ }
+ #nav.mobile-ativo #hamburguer::after {
+  transform: rotate(-135deg);
+  top: -7px;
+ }
 }
