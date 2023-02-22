@@ -3,7 +3,7 @@ export default function initEscrita() {}
 const typedTextSpan = document.querySelector('.typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
-const textArray = ['Software engineer.' /*, 'Front-end.', 'Web developer.'*/];
+const textArray = ['Software engineer.', 'Front-end.', 'Web developer.'];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;

@@ -15,6 +15,7 @@
 }
 
 .modal img {
+  width: 70vw;
   border-radius: 6px;
 }
 
@@ -50,4 +51,16 @@
   box-shadow: 0 6px 6px 0 var(--color-4);
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+ .modal img {
+  width: 90vw;
+ }
+}
+
+@media (max-width: 800px) {
+  .modal img {
+    width: 100vw;
+   } 
 }

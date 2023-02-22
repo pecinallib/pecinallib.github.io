@@ -151,16 +151,30 @@
       </div>
     </section>
 
-    <section>
-      <div>
-        <form action=""></form>
-      </div>
+    <section class="container-contato" id="contato">
+      <h1 class="color-4 font-3 titulo-contato" data-load="top">Contato</h1>
+      <form action="" class="form" data-load="top">
+        <div class="form-contato">
+          <input type="text" name="name" id="name" autocomplete="name" placeholder="Nome">
+          <label for="name"></label>
+        </div>
+        <div class="form-contato">
+          <input type="email" name="email" id="email" autocomplete="email" placeholder="Email">
+        </div>
+        <div class="form-contato">
+          <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+        </div>
+        <div class="form-contato">
+          <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        </div>
+        <button class="enviar">Enviar</button>
+      </form>
     </section>
 
   </main>
-  <section class="container-modal">
+  <section class="container-modal" id="contato">
     <div class="modal">
-      <img src="./img/PkEng.png" style="width: 70vw; height: 80vh;" id="modal-img">
+      <img src="./img/PkEng.png" id="modal-img">
     </div>
     <span id="fechar">&times;</span>
   </section>

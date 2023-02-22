@@ -119,3 +119,11 @@
     line-height: 15px;
   }
 }
+
+@media (max-width: 450px) {
+  .detalhe-linha {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
