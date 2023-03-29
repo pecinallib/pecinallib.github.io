@@ -22,25 +22,6 @@ Quero utilizar esse projeto para praticar e mostrar o que eu aprendo e com certe
 - CSS
 - JavaScript
 
-# Como executar o projeto
-
-## Front end web
-Pré-requisitos: yarn / VSCode
-
-```bash
-# clonar repositório
-git clone https://github.com/pecinallib/pecinallib.github.io
-
-# Acesse a pasta do projeto no terminal/CMD
-cd portifolio
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
 # Features Futuras
  ## Adicionar seleção de modo escuro/claro
  ## Adicionar seleção de idiomas
